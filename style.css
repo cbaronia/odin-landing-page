@@ -28,3 +28,23 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.container-1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #1F2937;
+    padding: 90px 100px 40px 160px;
+}
+
+.ctn1-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: -5px;
+}
+
+.ctn1-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
