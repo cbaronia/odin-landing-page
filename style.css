@@ -34,7 +34,7 @@ body {
     align-items: flex-start;
     gap: 10px;
     background-color: #1F2937;
-    padding: 90px 100px 40px 160px;
+    padding: 90px 100px 90px 160px;
 }
 
 .ctn1-left h1 {
@@ -47,4 +47,32 @@ body {
 .ctn1-left p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.container-2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.container-2 h1 {
+    margin-bottom: 32px;
+}
+
+.container-2 .cards {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+
+.card {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
