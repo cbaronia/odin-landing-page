@@ -49,6 +49,19 @@ body {
     color: #E5E7EB;
 }
 
+.ctn1-left button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+
 .container-2 {
     text-align: center;
     padding-top: 40px;
@@ -100,4 +113,47 @@ body {
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
+}
+
+.container-4 {
+    padding: 125px 100px 125px 160px;
+}
+
+.container-4 .ctn4-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 90px 50px 160px;
+    border-radius: 25px;
+}
+
+.container-4 .ctn4-content button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+.container-4 .ctn4-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-4 .ctn4-left p{
+    margin: 0;
+}
+
+.container-4 .ctn4-left .large-bold {
+    font-size: 24px;
+    font-weight: 700;
 }
